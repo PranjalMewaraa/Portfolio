@@ -1,0 +1,250 @@
+body{
+    background-color:#202329 ;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #1f2530;
+}
+@media  screen and (min-width: 1000px) {
+    .main{
+        margin: auto;
+        width: 82%;
+        height: 100%;
+    }
+}
+
+.nav_container{
+    display: flex;
+    width: 100%;
+}
+.nav_left{
+    display: flex;
+    width: 40%;
+    font-family: Fira Code;
+    color: white;
+    align-items: flex-start;
+    cursor: pointer;
+}
+nav{
+    margin-bottom: 2em;
+}
+.nav_right{
+    display: flex;
+    width: 60%;
+}
+.nav_right ul{
+    display: flex;
+    width: 100%;
+    margin-right: 5%;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: end;
+    align-items:flex-end;
+}
+.nav_right li{
+    margin: auto;
+    color: whitesmoke;
+    font-family: Fira Code;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav_right li:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #00ff22;
+    padding-bottom: 1%;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+li:hover:after{
+    transform: scaleX(1);
+}
+.header_container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+}
+.sec1 h1{
+    color: wheat;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.sec1 h2{
+    color: #cdcfd4;
+    font-family: Fira Code;
+    font-size: large;
+    font-weight: 600;
+}
+#button1{
+    color: white;
+    background-color: #282c33;
+    border: 2px solid #00ff22;
+    padding: 1em 3em;
+}
+.sec1{
+    width: 55%;
+}
+.sec2{
+    width: 45%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.quote{
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects h2{
+    font-family: Fira Code;
+    color: #00ff22;
+}
+.p_gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: center;
+}
+.Skills h2{
+    font-family: Fira Code;
+    color: #00ff22;
+}
+
+.s_gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.p1{
+    width: 30%;
+
+}
+.p2{
+    width: 70%;
+}
+@media screen and (max-height: 240px) {
+    #p1{
+        width: 0%;
+    }    
+    #p2{
+        width: 100%;
+    }
+}
+.About_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#text{
+    font-family: Fira Code;
+    color: #00ff22;   
+}
+.sec11{
+    width: 55%;
+    color: #cdcfd4;
+    font-family: Fira Code;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.con1,.con2{
+    width: 50%;
+}
+.con1 h3{
+    color: #cdcfd4;
+    font-family: Fira Code;
+    font-size: medium;
+    font-weight: 600;
+    padding-right: 5em;
+}
+.con_box{
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 1em;
+}
+.con2{
+    align-items: center;
+    padding: 1em;
+}
+.footer{
+    display: flex;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+.f2{
+    padding-left: 16px;
+    padding-top: 1em;
+}
+.f1{
+  color: #b3a9a9;
+  font-family: Fira Code;
+  width: 65%;
+}
+.f1 h3{
+    color: white;
+}
+footer{
+    border: 2px solid gray;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 360px;
+    min-width: 360px ;
+    font-family: Fira Code;
+    color: #cdcfd4;
+    font-size: smaller;
+    margin: 1px;
+    font-weight: 100;
+}
+.card_skill h3{
+    font-size: small;
+    font-weight: 200;
+}
+.card img{
+   border: 1px solid rgb(122, 117, 117);
+}
+.card_des{
+    
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+.card_des h3{
+    font-size: small;
+    font-weight: 200;
+    padding-bottom: 0.5em;
+}
+.card{
+    border: 1px solid rgb(122, 117, 117);
+    margin: 0.5px;
+}
+.card_skill{
+    padding-left: 1em;
+    border: 1px solid rgb(122, 117, 117) ;
+}
+.card button{
+    color: white;
+    background-color: #282c33;
+    border: 2px solid #00ff22;
+    padding: 1em 3em;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.skilcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
